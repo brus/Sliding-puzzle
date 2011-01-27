@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/successLayout"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/txvCongratulations"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Congratulations, puzzle solved." android:textSize="14sp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true"
+		android:paddingTop="20px">
+	</TextView>
+	<TextView android:id="@+id/txvAnotherGame"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Play another game?" android:textSize="14sp"
+		android:layout_below="@+id/txvCongratulations" android:layout_centerHorizontal="true">
+	</TextView>
+	<Button android:id="@+id/btnExit" android:layout_width="85px"
+		android:layout_height="wrap_content" android:text="Exit"
+		android:layout_below="@+id/txvAnotherGame" android:layout_marginTop="20px"
+		android:layout_alignRight="@+id/txvCongratulations">
+	</Button>
+	<Button android:id="@+id/btnPlayAnother" android:layout_width="85px"
+		android:layout_height="wrap_content" android:text="Play"
+		android:layout_below="@+id/txvAnotherGame" android:layout_alignLeft="@+id/txvCongratulations"
+		android:layout_marginTop="20px">
+	</Button>
+</RelativeLayout>
+

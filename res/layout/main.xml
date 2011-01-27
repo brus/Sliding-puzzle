@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/mainLayout"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<TextView android:id="@+id/txbCols" 
+		android:text="Number of cols:"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_x="21px" 
+		android:layout_y="33px">
+	</TextView>
+	<EditText android:id="@+id/edtCols" 
+		android:text="3" 
+		android:textSize="14sp"
+		android:layout_width="60px"
+		android:layout_height="40px" 
+		android:layout_x="168px"
+		android:layout_y="24px">
+	</EditText>
+	
+	<TextView android:id="@+id/txbRows" 
+		android:text="Number of rows:"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_x="21px" 
+		android:layout_y="70px">
+	</TextView>
+	<EditText android:id="@+id/edtRows" 
+		android:text="3"
+		android:textSize="14sp" 
+		android:layout_width="60px"
+		android:layout_height="40px" 
+		android:layout_x="168px"
+		android:layout_y="64px">
+	</EditText>
+	
+	<Button android:id="@+id/btnStart" 
+		android:text="Start" 
+		android:layout_width="110px"
+		android:layout_height="40px" 
+		android:layout_x="118px"
+		android:layout_y="119px">
+	</Button>
+</AbsoluteLayout>
